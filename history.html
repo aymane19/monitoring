@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Monitoring</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 40px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div>
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>           
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="stats.php">Status</a></li>
+                    <li class="active"><a href="history.html">Alert History</a></li>
+                    <li><a href="admin.html">Admin Console</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+          
+            <ul class="nav pull-right">                
+                <li class="divider-vertical"></li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <i class='icon-white icon-user'></i> Login <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <form action="login.html" id="form_login" accept-charset="utf-8" method="post">
+                            <fieldset class="control-group">  
+                                <input type="text" class="span2" name="username" placeholder="Username">
+                            </fieldset>
+                            <fieldset class="control-group">
+                                <input type="password" class="span2" name="password" placeholder="Passsword" />
+                            </fieldset>
+                            <fieldset class="control-group">
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </fieldset>
+                        </form> 
+                    </ul>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    
+  <div class="container">      
+    <h1 class="page-header">Alert Log</h1> 
+  <table class="table table-bordered table-hover table-striped">  
+    <thead>
+      <tr>
+        <th>Date / Time</th>
+        <th>Alert Type</th>        
+        <th>Consultant</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+           13 Mar 2013, 02:00 (4 Hours ago)
+        </td>
+        <td><a href="#">API Availability HTTP - South Africa </a></td>        
+        <td>
+          Aidan
+        </td>
+        <td >
+          Phoned Tier3, they are informing systems
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+           11 Mar 2013, 17:25 (2 days ago)
+        </td>
+        <td><a href="#">Coverage South Africa Vodacom</a></td>        
+        <td>
+          Rayne
+        </td>
+        <td >
+          Phoned Connectivity and informed them of the outage. Raymond investigating
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+           9 Mar 2013, 20:00 (4 Days ago)
+        </td>
+        <td><a href="#">Site Availability Clickatell.com</a></td>        
+        <td>
+          Matthew
+        </td>
+        <td >
+          Website showing blank page, phoned Tier3. Justin escalating.
+        </td>
+      </tr>     
+    </tbody>
+  </table>
+    
+  
+
+   </div>
+   
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>

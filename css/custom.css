@@ -1,0 +1,55 @@
+.alertClose {
+  margin-right: -25px;
+  font-size: 30px;
+  padding: 10px 15px 15px 15px;
+  line-height: 30px;
+}
+
+.modalClose {  
+  font-size: 30px;
+  padding: 10px 15px 15px 15px;
+  line-height: 30px;
+}
+
+.alert.alert-error {
+  color: white;
+  border: 2px solid brown;
+  background: #FF1919;
+}
+
+.alert.alert-info {
+  color: white;
+  border: 2px solid blue;
+  background: #038DFF;
+}
+
+.alert.alert-warning {
+  color: white;
+  border: 2px solid red;
+  background: #FF6803;
+}
+
+.heading {
+  color: white;
+  background: black;
+  margin: -10px;
+  margin-bottom: 20px;
+  padding: 40px;
+  font-size: 250%;
+  font-weight: 600;
+}
+
+.displayLeft {
+  border-right: 40px solid black;
+  background: #F5F8FF;
+  width: 70%;
+}
+
+.displayRight {
+  background: #FFFFF5;  
+}
+
+#form_login {
+  margin: 0px;
+  padding: 15px 15px 0px 15px;
+}
